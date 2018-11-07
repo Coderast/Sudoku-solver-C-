@@ -20,7 +20,7 @@ typedef struct Sudoku
 
 Sudoku sudoku_init();
 
-void sudoku_set(Sudoku *sudoku, short i, short j, SudokuElement element);
+void sudoku_set(Sudoku *sudoku, short row, short col, SudokuElement element);
 
 
 #endif //SUDOKU_SUDOKU_H
