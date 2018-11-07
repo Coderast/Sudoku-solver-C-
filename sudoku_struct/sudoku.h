@@ -7,17 +7,14 @@
 
 #include "sudoku_element.h"
 
-const short TABLE_SIZE = 9;
+const short SUDOKU_SIZE = 9;
 
 typedef struct Sudoku
 {
-    short table[TABLE_SIZE][TABLE_SIZE];
+    short table[SUDOKU_SIZE][SUDOKU_SIZE];
 
-    short *rows[TABLE_SIZE];
-    short *columns[TABLE_SIZE];
-
-    short *main_diag[TABLE_SIZE];
-    short *secondary_diag[TABLE_SIZE];
+    short *main_diag[SUDOKU_SIZE];
+    short *secondary_diag[SUDOKU_SIZE];
 
 } Sudoku;
 
